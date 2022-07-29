@@ -5,20 +5,22 @@
 
 class Fruit(
     val name: String,
-    val price: Int
+    val price: Int,
+    val id: Long
 )
+
 
 fun main(){
     val fruits = listOf(
-        Fruit("사과", 1000),
-        Fruit("바나나", 2000),
-        Fruit("바나나", 3000),
-        Fruit("바나나", 4000),
-        Fruit("바나나", 5000),
-        Fruit("수박", 6000),
-        Fruit("수박", 7000),
-        Fruit("수박", 8000),
-        Fruit("사과", 9000),
+        Fruit("사과", 1000, 1),
+        Fruit("바나나", 2000, 2),
+        Fruit("바나나", 3000,3),
+        Fruit("바나나", 4000,4),
+        Fruit("바나나", 5000,5),
+        Fruit("수박", 6000,6),
+        Fruit("수박", 7000,7),
+        Fruit("수박", 8000,8),
+        Fruit("사과", 9000,9),
     )
 
     val isApple: (Fruit) -> Boolean = fun(fruit: Fruit): Boolean{ // 이름 없는 함수 람다

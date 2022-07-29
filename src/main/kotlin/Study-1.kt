@@ -21,6 +21,6 @@ fun main(){
     number5=null
 
 
-    val person = Person("김시용"); // 객체를 인스턴스화 할때 new 를 쓰면 안된다.
+    val person = Person("김시용", 10); // 객체를 인스턴스화 할때 new 를 쓰면 안된다.
 
 }
