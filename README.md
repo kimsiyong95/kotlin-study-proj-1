@@ -42,3 +42,4 @@
 ##### Study-20 : 코틀린의 scope function
 
 
+(복습예정)
